@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 250px 50px;
+    gap: 150px;
+    background-color: #1f2937;
+}
+
+.section-one .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-one .container h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.section-one p,
+.section-one li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    padding: 7px 20px;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.section-one button {
+    border-style: none;
+    border-radius: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.section-one p {
+    margin-bottom: 10px;
+}
+
+.section-one img {
+    width: 500px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px 50px;
+    gap: 30px;
+}
+
+.section-two .container {
+    display: flex;
+    gap: 20px;
+}
+
+.section-two .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.section-two img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.section-two h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.section-three .quotes {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.section-three .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-three .author {
+    align-self: self-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-four {
+    padding: 50px;
+}
+
+.section-four .container {
+    background-color: #3882f6;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.section-four .head {
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.section-four .body {
+    color: #e5e7eb;
+}
+
+.section-four button {
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
+}
